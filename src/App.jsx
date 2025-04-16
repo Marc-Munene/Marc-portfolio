@@ -140,70 +140,92 @@ const App = () => {
             <div className="flex justify-center">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 w-full max-w-7xl">
                 {/* Classify */}
-                <div className="bg-gray-200 dark:bg-gray-800 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
+                <div className="bg-gray-200 dark:bg-gray-600 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-lg">
                   <div className="relative">
                     <img
                       className="w-full h-48 md:h-56 object-cover"
                       src="/public/Classify.png"
-                      alt="Classify Project"
+                      alt="Classify"
                     />
-                    <div className="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-3 py-1 m-2 rounded-md text-sm">
-                      New
-                    </div>
                   </div>
                   <div className="p-5">
                     <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-2">
                       Classify
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base">
-                      A web application used by students and class
-                      representatives to find vacant rooms.
+                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base mb-4">
+                      A web app meant for students to search for a vacant class
+                      to occupy, during a session or exams
                     </p>
+                    <div className="flex justify-end">
+                      <a
+                        href="https://classify-project.vercel.app/"
+                        target="blank"
+                      >
+                        <button className="bg-cyan-500 hover:bg-cyan-600 dark:bg-cyan-600 dark:hover:bg-cyan-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-0.5">
+                          View Demo
+                        </button>
+                      </a>
+                    </div>
                   </div>
                 </div>
 
-                <div className="bg-gray-200 dark:bg-gray-800 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
+                <div className="bg-gray-200 dark:bg-gray-600 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-lg">
                   <div className="relative">
                     <img
                       className="w-full h-48 md:h-56 object-cover"
                       src="/public/KLADI.png"
-                      alt="Kladi outfits"
+                      alt="Kladi-outfits"
                     />
                   </div>
                   <div className="p-5">
                     <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-2">
                       Kladi Outfits
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base">
+                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base mb-4">
                       A full-featured e-commerce platform with real-time
                       inventory management, payment processing, and admin
                       dashboard.
                     </p>
+                    <div className="flex justify-end">
+                      <a
+                        href="https://kladi-outfits.vercel.app/"
+                        target="blank"
+                      >
+                        <button className="bg-cyan-500 hover:bg-cyan-600 dark:bg-cyan-600 dark:hover:bg-cyan-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-0.5 cursor-pointer">
+                          View Demo
+                        </button>
+                      </a>
+                    </div>
                   </div>
                 </div>
-
                 {/*Hangover football  */}
 
-                <div className="bg-gray-200 dark:bg-gray-600 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
+                <div className="bg-gray-200 dark:bg-gray-600 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02] hover:shadow-lg">
                   <div className="relative">
                     <img
                       className="w-full h-48 md:h-56 object-cover"
                       src="/public/hangover.png"
-                      alt="hangover football wesbite"
+                      alt="Hangover football website"
                     />
                   </div>
                   <div className="p-5">
                     <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-2">
-                      Kladi Outfits
+                      Hangover Football Academy
                     </h3>
-                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base">
-                      A football club wesbite
+                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base mb-4">
+                      A football club website, entailing every detail of the
+                      club, from the partnersgym, field and partners.
                     </p>
-                  </div>
-                  <div className="flex justify-end">
-                    <button className="mr-3 bg-black text-white py-2 px-1 rounded cursor-pointer">
-                      Demo
-                    </button>
+                    <div className="flex justify-end">
+                      <a
+                        href="https://hangover-football-club.vercel.app/"
+                        target="blank"
+                      >
+                        <button className="bg-cyan-500 hover:bg-cyan-600 dark:bg-cyan-600 dark:hover:bg-cyan-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-0.5 cursor-pointer">
+                          View Demo
+                        </button>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
