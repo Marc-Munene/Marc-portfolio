@@ -10,7 +10,7 @@ const App = () => {
           <nav className="flex flex-row items-center justify-between ">
             {/* logo */}
             <div>
-              <a href="/">
+              <a href="">
                 <img
                   src="/public/munene.dev2.png"
                   alt="Logo"
