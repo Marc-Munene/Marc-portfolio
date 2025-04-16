@@ -55,19 +55,21 @@ const App = () => {
               <span className="text-pink-500"> &lt;/span&gt;</span>
             </p>
             <h1 className="text-3xl md:text-5xl font-mono font-semibold mt-2">
-             <span className="text-green-400">{`{Full Stack}`}</span>
+              <span className="text-green-400">{`{Full Stack}`}</span>
               <br />
               Web Developer<span className="text-cyan-500">_</span>
             </h1>
             <p className="mt-4 sm:text-lg md:text-2xl text-gray-400 ">
-              &lt;p&gt; With expertise in cutting-edge technologies such as{" "}
+              <span className="text-pink-500">&lt;p&gt;</span> With expertise in
+              cutting-edge technologies such as{" "}
               <span className="text-green-400">NodeJS</span>,{" "}
               <span className="text-white">ExpressJS</span>,{" "}
               <span className="text-blue-500">React</span>,{" "}
               <span className="text-yellow-500">Python</span>,{" "}
               <span className="text-blue-600">Typescript</span>, and{" "}
               <span className="text-green-400">MongoDB</span>... I deliver web
-              solutions that are both innovative and robust. &lt;/p&gt;
+              solutions that are both innovative and robust.{" "}
+              <span className="text-pink-500">&lt;/p&gt;</span>
             </p>
           </div>
         </div>
