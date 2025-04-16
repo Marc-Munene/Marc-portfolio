@@ -21,15 +21,22 @@ const App = () => {
             {/*  Navigation Links*/}
             <div className="hidden md:flex flex-grow justify-center">
               <ul className="flex space-x-8 sm:text-sm md:text-2xl lg:text-3xl">
-                <li className="  font-medium cursor-pointer ">About</li>
-                <li className="  font-medium cursor-pointer ">Projects</li>
+                <li className="  font-medium cursor-pointer ">
+                  <a href="#about">About</a>
+                </li>
+                <li className="  font-medium cursor-pointer ">
+                  <a href="#projects">Projects</a>
+                </li>
                 <li className="  font-medium cursor-pointer ">Profession</li>
               </ul>
             </div>
             <div className="flex space-x-4">
-              <FaGithub size={24} className="cursor-pointer" />
-              <BsInstagram size={24} className="cursor-pointer" />
-              <IoIosMail className="mr-4 cursor-pointer" size={24} />
+              <a href="https://github.com/Marc-Munene" target="blank">
+                <FaGithub size={24} className="cursor-pointer" />
+              </a>
+              <a href="https://www.instagram.com/its__munene/" target="blank">
+                <BsInstagram size={24} className="cursor-pointer" />
+              </a>
             </div>
           </nav>
         </header>
