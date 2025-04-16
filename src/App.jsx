@@ -81,23 +81,42 @@ const App = () => {
         </div>
 
         {/* About */}
-        <div className="flex border items-center mx-auto">
-          <div className="">
-            <div className="flex justify-center">
-              <h1 className="font-bold text-4xl">About Me</h1>
-            </div>
-            <p className="font-bold">
-              Crafting clean code & building seamless experiences.
-            </p>
-            <br />
-            <span className="">
-              Full-stack developer by day, debugger by night, and caffeine
-              enthusiast 24/7. I build things that work (most of the time) and
-              laugh at my own bugs (after fixing them). Let’s create something
-              awesome—preferably with fewer merge conflicts.
-            </span>
-          </div>
-        </div>
+        <section id="about" className="py-12 md:py-20 bg-gray-900/5 dark:bg-gray-800/50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {/* Section Title */}
+    <div className="flex justify-center mb-10 md:mb-16">
+      <h1 className="text-3xl sm:text-4xl font-bold text-cyan-500 relative">
+        About Me
+        <span className="absolute -bottom-2 left-0 right-0 mx-auto w-16 h-1 bg-cyan-500/50"></span>
+      </h1>
+    </div>
+
+    {/* Content Container */}
+    <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-12">
+      {/* Text Content */}
+      <div className="md:flex-1 text-center md:text-left">
+        <p className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200 mb-4">
+          Crafting clean code & building seamless experiences.
+        </p>
+        <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg leading-relaxed">
+          Full-stack developer by day, debugger by night, and caffeine
+          enthusiast 24/7. I build things that work (most of the time)
+          and laugh at my own bugs (after fixing them). Let’s create
+          something awesome—preferably with fewer merge conflicts.
+        </p>
+      </div>
+
+      {/* Image */}
+      <div className="md:flex-shrink-0">
+        <img
+          src="/public/unsplash (1).jpg"
+          alt="Coding workspace"
+          className="rounded-lg shadow-xl w-full max-w-xs sm:max-w-sm md:w-80 lg:w-96 h-auto object-cover border-4 border-none"
+        />
+      </div>
+    </div>
+  </div>
+</section>
       </div>
     </div>
   );
