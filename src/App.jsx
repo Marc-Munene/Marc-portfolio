@@ -34,9 +34,8 @@ const App = () => {
           </nav>
         </header>
 
-
         {/* Hero Section */}
-        <div className="py-12 md:py-20">
+        <section id="hero" className=" py-10 md:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-12">
               {/* Image */}
@@ -44,7 +43,7 @@ const App = () => {
                 <img
                   src="/public/_A647239_resized.jpg"
                   alt="Marc's Profile"
-                  className="rounded-lg shadow-xl w-full max-w-xs sm:max-w-sm md:w-80 lg:w-96 h-auto object-cover border-4 border-cyan-500/20"
+                  className="rounded-lg shadow-xl w-full max-w-xs sm:max-w-sm md:w-80 lg:w-96 h-auto object-cover border-4 border-cyan-500"
                 />
               </div>
 
@@ -83,7 +82,7 @@ const App = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
         {/* About section*/}
         <section
@@ -121,6 +120,92 @@ const App = () => {
                   alt="Coding workspace"
                   className="rounded-lg shadow-xl w-full max-w-xs sm:max-w-sm md:w-80 lg:w-96 h-auto object-cover border-4 border-none"
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Personal Projects */}
+        <section id="projects" className="py-12 md:py-20 border bg-bckg">
+          {/* Title Section - Improved Responsiveness */}
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-center mb-10 md:mb-16">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-cyan-500 relative">
+                Personal Projects
+                <span className="absolute -bottom-2 left-0 right-0 mx-auto w-16 h-1 bg-cyan-500/50"></span>
+              </h1>
+            </div>
+
+            {/* Projects Grid - Improved Responsiveness */}
+            <div className="flex justify-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 w-full max-w-7xl">
+                {/* Classify */}
+                <div className="bg-gray-200 dark:bg-gray-800 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
+                  <div className="relative">
+                    <img
+                      className="w-full h-48 md:h-56 object-cover"
+                      src="/public/Classify.png"
+                      alt="Classify Project"
+                    />
+                    <div className="absolute top-0 right-0 bg-indigo-500 text-white font-bold px-3 py-1 m-2 rounded-md text-sm">
+                      New
+                    </div>
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-2">
+                      Classify
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base">
+                      A web application used by students and class
+                      representatives to find vacant rooms.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-gray-200 dark:bg-gray-800 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
+                  <div className="relative">
+                    <img
+                      className="w-full h-48 md:h-56 object-cover"
+                      src="/public/KLADI.png"
+                      alt="Kladi outfits"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-2">
+                      Kladi Outfits
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base">
+                      A full-featured e-commerce platform with real-time
+                      inventory management, payment processing, and admin
+                      dashboard.
+                    </p>
+                  </div>
+                </div>
+
+                {/*Hangover football  */}
+
+                <div className="bg-gray-200 dark:bg-gray-600 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
+                  <div className="relative">
+                    <img
+                      className="w-full h-48 md:h-56 object-cover"
+                      src="/public/hangover.png"
+                      alt="hangover football wesbite"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-800 dark:text-white mb-2">
+                      Kladi Outfits
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base">
+                      A football club wesbite
+                    </p>
+                  </div>
+                  <div className="flex justify-end">
+                    <button className="mr-3 bg-black text-white py-2 px-1 rounded cursor-pointer">
+                      Demo
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
