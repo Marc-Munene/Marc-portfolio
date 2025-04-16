@@ -25,6 +25,22 @@ const App = () => {
             </div>
           </nav>
         </header>
+
+        {/* Hero section */}
+
+        <div>
+          <div>
+            <img src="/public/munene.dev.png" alt="logo" />
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              repellendus ad assumenda id? Et, culpa. Similique dolores,
+              adipisci pariatur consectetur quasi amet, accusamus quibusdam,
+              ullam soluta fuga ad aspernatur ex.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
