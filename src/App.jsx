@@ -82,7 +82,7 @@ const App = () => {
 
         {/* About */}
         <section id="about" className="py-12 md:py-20 bg-gray-900/5 dark:bg-gray-800/50">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8">
     {/* Section Title */}
     <div className="flex justify-center mb-10 md:mb-16">
       <h1 className="text-3xl sm:text-4xl font-bold text-cyan-500 relative">
