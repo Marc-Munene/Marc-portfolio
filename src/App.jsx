@@ -1,21 +1,22 @@
 import { BsInstagram } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
 
 const App = () => {
   return (
     <div className="min-h-screen bg-bckg text-primary">
       <div>
-        <header>
+        <header className="sticky top-0 z-50  shadow-sm">
           {/* navbar */}
           <nav className="flex flex-row items-center justify-between ">
             {/* logo */}
             <div>
-              <img
-                src="/public/munene.dev2.png"
-                alt="Logo"
-                className="h-15 w-auto ml-4 py-1"
-              />
+              <a href="/">
+                <img
+                  src="/public/munene.dev2.png"
+                  alt="Logo"
+                  className="h-15 w-auto ml-4 py-1"
+                />
+              </a>
             </div>
 
             {/*  Navigation Links*/}
@@ -35,7 +36,7 @@ const App = () => {
                 <FaGithub size={24} className="cursor-pointer" />
               </a>
               <a href="https://www.instagram.com/its__munene/" target="blank">
-                <BsInstagram size={24} className="cursor-pointer" />
+                <BsInstagram size={24} className="cursor-pointer mr-3" />
               </a>
             </div>
           </nav>
