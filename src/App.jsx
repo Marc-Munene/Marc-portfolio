@@ -12,7 +12,7 @@ const App = () => {
             <div>
               <a href="">
                 <img
-                  src="/public/munene.dev2.png"
+                  src="/munene.dev2.png"
                   alt="Logo"
                   className="h-15 w-auto ml-4 py-1"
                 />
@@ -49,9 +49,10 @@ const App = () => {
               {/* Image */}
               <div className="md:flex-shrink-0">
                 <img
-                  src="/public/_A647239_resized.jpg"
+                  src="/_A647239_resized.jpg"
                   alt="Marc's Profile"
                   className="rounded-lg shadow-xl w-full max-w-xs sm:max-w-sm md:w-80 lg:w-96 h-auto object-cover border-4 border-cyan-500"
+                  loading="lazy"
                 />
               </div>
 
@@ -124,9 +125,10 @@ const App = () => {
               {/* Image */}
               <div className="md:flex-shrink-0">
                 <img
-                  src="/public/unsplash (1).jpg"
+                  src="/unsplash (1).jpg"
                   alt="Coding workspace"
                   className="rounded-lg shadow-xl w-full max-w-xs sm:max-w-sm md:w-80 lg:w-96 h-auto object-cover border-4 border-none"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -152,7 +154,7 @@ const App = () => {
                   <div className="relative">
                     <img
                       className="w-full h-48 md:h-56 object-cover"
-                      src="/public/Classify.png"
+                      src="/Classify.png"
                       alt="Classify"
                     />
                   </div>
@@ -181,7 +183,7 @@ const App = () => {
                   <div className="relative">
                     <img
                       className="w-full h-48 md:h-56 object-cover"
-                      src="/public/KLADI.png"
+                      src="/KLADI.png"
                       alt="Kladi-outfits"
                     />
                   </div>
@@ -212,7 +214,7 @@ const App = () => {
                   <div className="relative">
                     <img
                       className="w-full h-48 md:h-56 object-cover"
-                      src="/public/hangover.png"
+                      src="/hangover.png"
                       alt="Hangover football website"
                     />
                   </div>
