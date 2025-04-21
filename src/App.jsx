@@ -102,12 +102,7 @@ const App = () => {
                   <span className="text-pink-500">&lt;/p&gt;</span>
                 </p>
 
-                {/* <div className="mt-6">
-                 
-                  <button className="border border-cyan-500 text-cyan-500 hover:bg-cyan-500/10 px-4 py-2 sm:px-6 sm:py-3 rounded-lg cursor-pointer transition-all duration-300">
-                    Contact Me?
-                  </button>
-                </div> */}
+
                 <MotionButton />
               </div>
             </div>
