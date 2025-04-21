@@ -1,7 +1,7 @@
 import { BsInstagram } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { MotionButton } from "./components/MotionButton";
-import { SplitText } from "./components/SplitText";
+// import { MotionButton } from "./components/MotionButton";
+// import { SplitText } from "./components/SplitText";
 
 const App = () => {
   return (
@@ -66,13 +66,13 @@ const App = () => {
                   <span className="text-pink-500">&lt;/span&gt;</span>
                 </p>
 
-                {/* <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold mt-2">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold mt-2">
                   <span className="text-green-400">{`{Full Stack}`}</span>
                   <br className="hidden sm:block" />
                   Web Developer<span className="text-cyan-500">_</span>
-                </h1> */}
+                </h1>
 
-                <SplitText
+                {/* <SplitText
                   text="{Full Stack}"
                   className="text-green-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold mt-2"
                   delay={70}
@@ -87,7 +87,7 @@ const App = () => {
                   text="_"
                   className="text-cyan-500 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold"
                   delay={110}
-                />
+                /> */}
 
                 <p className="mt-4 text-base sm:text-lg text-gray-400">
                   <span className="text-pink-500">&lt;p&gt;</span> With
@@ -102,8 +102,13 @@ const App = () => {
                   <span className="text-pink-500">&lt;/p&gt;</span>
                 </p>
 
-
-                <MotionButton />
+                <div className="mt-6">
+                 
+                  <button className="border border-cyan-500 text-cyan-500 hover:bg-cyan-500/10 px-4 py-2 sm:px-6 sm:py-3 rounded-lg cursor-pointer transition-all duration-300">
+                    Contact Me?
+                  </button>
+                </div>
+                {/* <MotionButton /> */}
               </div>
             </div>
           </div>
