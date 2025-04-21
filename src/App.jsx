@@ -1,6 +1,7 @@
 import { BsInstagram } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { MotionButton } from "./components/MotionButton";
+import { SplitText } from "./components/SplitText";
 
 const App = () => {
   return (
@@ -65,11 +66,28 @@ const App = () => {
                   <span className="text-pink-500">&lt;/span&gt;</span>
                 </p>
 
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold mt-2">
+                {/* <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold mt-2">
                   <span className="text-green-400">{`{Full Stack}`}</span>
                   <br className="hidden sm:block" />
                   Web Developer<span className="text-cyan-500">_</span>
-                </h1>
+                </h1> */}
+
+                <SplitText
+                  text="{Full Stack}"
+                  className="text-green-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold mt-2"
+                  delay={70}
+                />
+                <br />
+                <SplitText
+                  text="Web Developer"
+                  className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold"
+                  delay={90}
+                />
+                <SplitText
+                  text="_"
+                  className="text-cyan-500 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-mono font-semibold"
+                  delay={110}
+                />
 
                 <p className="mt-4 text-base sm:text-lg text-gray-400">
                   <span className="text-pink-500">&lt;p&gt;</span> With
