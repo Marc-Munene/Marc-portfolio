@@ -5,12 +5,12 @@ const App = () => {
   return (
     <div className="min-h-screen bg-bckg text-primary">
       <div>
-        <header className="sticky top-0 z-50  shadow-sm">
+        <header className="sticky top-0 z-50 shadow-lg bg-bckg py-4">
           {/* navbar */}
-          <nav className="flex flex-row items-center justify-between ">
+          <nav className="flex flex-row items-center justify-between bg-black rounded-4xl mx-6 py-2 backdrop-blur-lg ">
             {/* logo */}
             <div>
-              <a href="">
+              <a href="/">
                 <img
                   src="/munene.dev2.png"
                   alt="Logo"
@@ -22,13 +22,13 @@ const App = () => {
             {/*  Navigation Links*/}
             <div className="hidden md:flex flex-grow justify-center">
               <ul className="flex space-x-8 sm:text-sm md:text-2xl lg:text-3xl">
-                <li className="  font-medium cursor-pointer ">
+                <li className="  font-base cursor-pointer ">
                   <a href="#about">About</a>
                 </li>
-                <li className="  font-medium cursor-pointer ">
+                <li className="  font-base cursor-pointer ">
                   <a href="#projects">Projects</a>
                 </li>
-                <li className="  font-medium cursor-pointer ">Profession</li>
+                <li className="  font-base cursor-pointer ">Profession</li>
               </ul>
             </div>
             <div className="flex space-x-4">
@@ -136,7 +136,7 @@ const App = () => {
         </section>
 
         {/* Personal Projects */}
-        <section id="projects" className="py-12 md:py-20 border bg-bckg">
+        <section id="projects" className="py-12 md:py-20  bg-bckg">
           {/* Title Section - Improved Responsiveness */}
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center mb-10 md:mb-16">
